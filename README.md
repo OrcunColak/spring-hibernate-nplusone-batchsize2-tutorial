@@ -6,10 +6,10 @@ https://medium.com/jpa-java-persistence-api-guide/hibernate-optimization-with-ba
 This example shows @BatchSize At Class Level
 
 # @BatchSize At Class Level
-
-Applying @BatchSize(size=50) loads the N authors at once when iterating over Books.
-
 Books have ManyToOne relationship to Author
+
+Applying @BatchSize(size=N) loads the N authors at once when iterating over Books.
+
 
 
 
